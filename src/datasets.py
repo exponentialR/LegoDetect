@@ -64,7 +64,7 @@ class LegoDataset(Dataset):
 
 
 if __name__ == '__main__':
-    project_dir = ''
+    project_dir = '/home/qub-hri/Documents/Datasets/Legos'
     transform = transforms.Compose([transforms.ToTensor()])
     dataset = LegoDataset(project_dir, transform=transform)
     output_dir = 'visualization_images'
