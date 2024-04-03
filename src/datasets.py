@@ -39,3 +39,4 @@ class LegoDataset(Dataset):
                 label.append({'label': class_label, 'bbox': bbox})
 
         return label
+
