@@ -1,0 +1,31 @@
+model: YOLOv5s
+
+path: ../datasets/Legos
+train: train/images # train images (relative to 'path')  974 images
+val: val/images # val images (relative to 'path') 150 images
+
+names:
+  0: two_two_block
+  1: four_two_block
+  2: assembly_base
+  3: biah_hole
+  4: lefthand
+  5: mini_stairway
+  6: righthand
+  7: stacked_bridge
+  8: stacked_stairs
+  9: stacked_tower
+  10: surrogate_hand
+  11: tower_head
+
+
+
+
+hyp:
+  lr0: 0.0001  # initial learning rate
+  lrf: 0.2   # final learning rate
+  momentum: 0.937
+  weight_decay: 0.0005
+  warmup_epochs: 3
+  warmup_momentum: 0.8
+  warmup_bias_lr: 0.1
