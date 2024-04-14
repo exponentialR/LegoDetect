@@ -5,7 +5,7 @@ train: train/images # train images (relative to 'path')  974 images
 val: val/images # val images (relative to 'path') 150 images
 
 names:
-  0: two_two_block
+  0: 2-2-block
   1: four_two_block
   2: assembly_base
   3: biah_hole
